@@ -6,7 +6,7 @@ Tested up to: 6.5
 Requires PHP: 7.4
 Stable tag: 0.0.1
 License: Proprietary
-License URI: https://memberminderpro.com/license
+License URI: https://mmpro.llc/license
 
 This addon for WS Form Pro enables dynamic MMP (Member Minder Pro) registration form features, including email duplication checking and Rotary club lookup.
 
@@ -61,4 +61,3 @@ You can provide an AccountID via a hidden WS Form field. If DACdbPlus is install
 
 = 0.0.1 =
 Initial release of email validation and dynamic lookup features for WS Form Pro and MMP clients.
-
