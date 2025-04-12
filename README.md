@@ -4,7 +4,7 @@ This WordPress plugin extends [WS Form Pro](https://wsform.com) to support MMP (
 
 - Email duplication checking (live API validation)
 - Dynamic Rotary club lookup (geographic filters)
-- Optional integration with DACdbPlus for shared AccountID detection
+- Optional integration with [DACdbPlus](https://wordpress.dacdb.com/plugins/dacdbplus/changelog) for shared AccountID detection
 
 ---
 
