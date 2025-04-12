@@ -1,0 +1,11 @@
+# Normalize line endings
+* text=auto
+
+# Treat PHP files as text
+*.php text
+
+# Keep Unix-style line endings for shell scripts
+*.sh text eol=lf
+
+# Ensure consistent JSON formatting
+*.json text

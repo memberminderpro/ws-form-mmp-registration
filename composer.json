@@ -1,0 +1,13 @@
+{
+    "name": "memberminderpro/ws-form-mmp-registration",
+    "description": "WS Form Pro addon for managing MMP registration workflows.",
+    "type": "wordpress-plugin",
+    "license": "proprietary",
+    "autoload": {
+      "psr-4": {
+        "Mmpro\\WSFormRegistration\\": "includes/"
+      }
+    },
+    "require": {}
+  }
+  

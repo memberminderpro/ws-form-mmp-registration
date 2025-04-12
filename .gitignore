@@ -1,0 +1,24 @@
+# Node / Build tools (future-proofing)
+node_modules/
+npm-debug.log*
+yarn.lock
+package-lock.json
+
+# Composer
+/vendor/
+composer.lock
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE / Editor junk
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# WordPress Core/Upload folders (not part of plugin)
+wp-content/uploads/
+wp-content/cache/

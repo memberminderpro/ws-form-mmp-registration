@@ -1,0 +1,36 @@
+<?php
+/*
+Plugin Name: WS Form MMP Registration
+Description: Adds validation and club lookup features for MMP membership registration forms.
+Version: 0.0.1
+Author: Member Minder Pro, LLC
+*/
+
+defined('ABSPATH') || exit;
+
+// Core includes
+require_once __DIR__ . '/includes/integration/wsform-hooks.php';
+require_once __DIR__ . '/includes/settings-page.php';
+
+// AJAX endpoints
+require_once __DIR__ . '/includes/ajax/email-check.php';
+require_once __DIR__ . '/includes/ajax/club-lookup.php';
+
+function mmp_register_form_scripts() {
+    wp_enqueue_script(
+        'mmp-email-check',
+        plugin_dir_url(__FILE__) . 'assets/js/email-check.js',
+        ['jquery'],
+        '1.0.0',
+        true
+    );
+
+    wp_enqueue_script(
+        'mmp-club-lookup',
+        plugin_dir_url(__FILE__) . 'assets/js/club-lookup.js',
+        ['jquery'],
+        '1.0.0',
+        true
+    );
+}
+add_action('wp_enqueue_scripts', 'mmp_register_form_scripts');
