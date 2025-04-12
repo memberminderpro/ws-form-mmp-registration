@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: WS Form MMP Registration
-Description: Adds validation and club lookup features for MMP membership registration forms.
+Description: Adds validation and club lookup features for MMP membership registration forms built with WS Form.
 Version: 0.0.1
 Author: Member Minder Pro, LLC
 */
