@@ -29,8 +29,9 @@ This WordPress plugin extends [WS Form Pro](https://wsform.com) to support MMP (
 ## Installation
 
 1. Clone or download this repo into your WordPress `/wp-content/plugins/` directory:
+
    ```bash
-   git clone https://github.com/YOUR-GITHUB-ORG/ws-form-mmp-registration.git
+   git clone https://github.com/memberminderpro/ws-form-mmp-registration.git
    ```
 
 2. Activate the plugin via the WordPress admin
@@ -79,11 +80,11 @@ ws-form-mmp-registration/
 ## Development
 
 ```bash
-git clone git@github.com:YOUR-GITHUB-ORG/ws-form-mmp-registration.git
+git clone git@github.com:memberminderpro/ws-form-mmp-registration.git
 cd ws-form-mmp-registration
 ```
 
-Pushes to `main` will trigger deployment to the dev server.
+Pushes to `develop` will trigger deployment to the dev server.
 
 ---
 
