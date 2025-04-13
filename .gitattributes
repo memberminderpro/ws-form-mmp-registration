@@ -1,3 +1,56 @@
+# Automatically normalize line endings
+* text=auto
+
+# ─────────────────────────────────────────────────────────────
+# Git-specific and tooling files (excluded from export/archive)
+# ─────────────────────────────────────────────────────────────
+.git*                            export-ignore
+.github/                         export-ignore
+.vscode/                         export-ignore
+.wp-env/                         export-ignore
+.cursor                          export-ignore
+.cursorrules                     export-ignore
+/.wp-env.json                    export-ignore
+/.wp-env.full.json               export-ignore
+
+# ─────────────────────────────────────────────────────────────
+# Development and sandbox directories (excluded from release)
+# ─────────────────────────────────────────────────────────────
+/changelog/                      export-ignore
+/show_functions/                 export-ignore
+/debug/                          export-ignore
+/sandbox/                        export-ignore
+/playground/                     export-ignore
+/test/                           export-ignore
+/documentation/                  export-ignore
+/dev/                            export-ignore
+
+# ─────────────────────────────────────────────────────────────
+# Composer files (excluded from release)
+# ───────────────────────────────────────────────────────────── 
+/composer.json                   export-ignore
+/composer.lock                   export-ignore
+
+# ─────────────────────────────────────────────────────────────
+# Temporary and metadata files
+# ─────────────────────────────────────────────────────────────
+*.log                            export-ignore
+*.Zone.Identifier*               export-ignore
+*:Zone.Identifier*               export-ignore
+*:com.dropbox.attrs              export-ignore
+
+# ─────────────────────────────────────────────────────────────
+# Project documentation not needed in release package
+# ─────────────────────────────────────────────────────────────
+changelog.html                   export-ignore
+instructions.md                  export-ignore
+
+# ─────────────────────────────────────────────────────────────
+# Important: DO NOT exclude the `vendor/` directory — it's required at runtime.
+# If you use Composer for autoloading in WordPress, vendor must be included.
+# ─────────────────────────────────────────────────────────────
+# vendor/                       export-ignore   ← intentionally NOT ignored
+
 # Normalize line endings
 * text=auto
 
@@ -9,3 +62,5 @@
 
 # Ensure consistent JSON formatting
 *.json text
+
+
